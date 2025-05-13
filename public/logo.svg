@@ -1,0 +1,7 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M35 15L45 30L35 45H15L5 30L15 15H35Z" stroke="#3B82F6" stroke-width="2" fill="none"/>
+  <path d="M40 15L50 30L40 45H20L10 30L20 15H40Z" stroke="#3B82F6" stroke-width="2" fill="none"/>
+  <path d="M30 15L40 30L30 45H10L0 30L10 15H30Z" stroke="#3B82F6" stroke-width="2" fill="none"/>
+  <text x="60" y="35" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#3B82F6">D-CHAIN</text>
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="10" fill="#3B82F6">Disaster Response System</text>
+</svg> 

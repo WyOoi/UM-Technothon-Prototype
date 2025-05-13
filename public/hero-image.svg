@@ -1,0 +1,57 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="800" height="500" rx="10" fill="url(#paint0_linear)"/>
+  
+  <!-- Blockchain grid pattern -->
+  <g opacity="0.2">
+    <path d="M100 100H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M100 150H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M100 200H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M100 250H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M100 300H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M100 350H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M100 400H700" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    
+    <path d="M100 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M200 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M300 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M400 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M500 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M600 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+    <path d="M700 100V400" stroke="white" stroke-width="1" stroke-dasharray="5 5"/>
+  </g>
+  
+  <!-- Blockchain nodes -->
+  <circle cx="200" cy="150" r="20" fill="#3B82F6"/>
+  <circle cx="300" cy="200" r="20" fill="#3B82F6"/>
+  <circle cx="400" cy="150" r="20" fill="#3B82F6"/>
+  <circle cx="500" cy="250" r="20" fill="#3B82F6"/>
+  <circle cx="600" cy="200" r="20" fill="#3B82F6"/>
+  <circle cx="200" cy="300" r="20" fill="#3B82F6"/>
+  <circle cx="400" cy="350" r="20" fill="#3B82F6"/>
+  <circle cx="600" cy="350" r="20" fill="#3B82F6"/>
+  
+  <!-- Connecting lines -->
+  <path d="M220 150L280 190" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M320 200L380 160" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M420 150L480 240" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M520 250L580 210" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M200 170L200 280" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M300 220L300 320" stroke="#3B82F6" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M320 210L380 340" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M420 350L580 350" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M600 220L600 330" stroke="#3B82F6" stroke-width="2"/>
+
+  <!-- Icons representing disaster response elements -->
+  <rect x="180" cy="150" width="40" height="30" rx="5" fill="white" opacity="0.3"/>
+  <rect x="380" cy="150" width="40" height="30" rx="5" fill="white" opacity="0.3"/>
+  <rect x="580" cy="200" width="40" height="30" rx="5" fill="white" opacity="0.3"/>
+  <rect x="380" cy="350" width="40" height="30" rx="5" fill="white" opacity="0.3"/>
+  
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+</svg> 
