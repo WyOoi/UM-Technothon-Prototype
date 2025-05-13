@@ -1,40 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# D-Chain: Blockchain-Based Disaster Response System
+
+D-Chain is a Next.js application that leverages blockchain technology to improve disaster response and relief efforts.
+
+## Features
+
+- Real-time disaster tracking with interactive map
+- Transparent donation system powered by blockchain
+- Responsive design that works on all devices
+- Complete disaster information and resource allocation tracking
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [npm](https://www.npmjs.com/) (typically comes with Node.js)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/WyOoi/UM-Technothon-Prototype.git
+   ```
+
+2. Navigate to the project directory
+   ```bash
+   cd UM-Technothon-Prototype
+   ```
+
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
+
+### Common Git Issues
+
+If you encounter Git issues when pushing your changes:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+error: failed to push some refs to 'https://github.com/WyOoi/UM-Technothon-Prototype.git'
+hint: Updates were rejected because the remote contains work that you do not have locally.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Try the following:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Pull the latest changes from the remote repository first:
+   ```bash
+   git pull origin main
+   ```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. Resolve any merge conflicts if they occur
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+3. Then push your changes:
+   ```bash
+   git push origin main
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- `/pages` - Next.js pages and routes
+- `/components` - Reusable React components
+- `/public` - Static assets like images and fonts
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [React Leaflet](https://react-leaflet.js.org/) - OpenStreetMap integration
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details. 
